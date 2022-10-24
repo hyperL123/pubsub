@@ -1,4 +1,3 @@
-
 import { createClient } from 'redis';
 
 async function main(){
@@ -8,4 +7,5 @@ async function main(){
         console.log(message); // 'message'
     });
 }
+
 main()
